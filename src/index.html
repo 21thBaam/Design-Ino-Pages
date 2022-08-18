@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="main.js"></script>
-</head>
-
-<body class="p-4">
-
-  <button class="btn btn-primary">
-    Primary button
-  </button>
-
-  <button class="btn btn-secondary">
-    Secondary button
-  </button>
-
-</body>
-
+  <body class="p-4">
+    <div class="container">
+      <div class="form_content">
+        <form asp-action="Login" method="post">
+          <img src="../img/Logo.png" alt="Logo" class="logo" />
+          <!--asp-validation-summary-->
+          <div class="mb-3">
+            <label class="form-label"></label>
+            <input placeholder="Username" class="form-control" />
+            <span class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+            <label class="form-label"></label>
+            <input placeholder="Password" class="form-control" />
+            <span class="text-danger"></span>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">Remember me</label>
+          </div>
+          <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary" id="btnIngresar">
+              Login
+            </button>
+          </div>
+          <div class="mb-3 text-center">
+            <a class="btn btn-outline-success btn-lg">Register</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
