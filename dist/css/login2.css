@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: rgba(21, 24, 30, 0.5);
+}
+
+.frame-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inside-of-frame {
+  margin-right: 5rem;
+}

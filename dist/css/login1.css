@@ -1,0 +1,22 @@
+.form_content {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  width: 43%;
+  margin: 100px auto;
+  box-shadow: gray 5px 5px;
+}
+
+.logo {
+  width: 70%;
+  margin: auto auto 15px auto;
+  border-radius: 15px;
+  display: block;
+}
+
+#btnIngresar {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 20px;
+}

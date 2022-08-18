@@ -5,35 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
+    <link href="css/login1.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="p-4">
     <div class="container">
       <div class="form_content">
-        <form asp-action="Login" method="post">
-          <img src="../img/Logo.png" alt="Logo" class="logo" />
+        <form>
+          <img
+            src="https://th.bing.com/th/id/R.f5c2d078f860144283d80bbf0852727e?rik=83dZf62o7%2bIy4A&riu=http%3a%2f%2fppac.co.th%2fwp-content%2fuploads%2f2020%2f01%2finoac-logo.png&ehk=nzPeyGKFJJEvE6EF%2fWELpqg2ZS%2fS0ean1gxaMxEAc6U%3d&risl=&pid=ImgRaw&r=0"
+            alt="Logo"
+            class="logo"
+          />
           <!--asp-validation-summary-->
           <div class="mb-3">
             <label class="form-label"></label>
-            <input placeholder="Username" class="form-control" />
+            <input placeholder="Nombre de usuario" class="form-control" />
             <span class="text-danger"></span>
           </div>
           <div class="mb-3">
             <label class="form-label"></label>
-            <input placeholder="Password" class="form-control" />
+            <input placeholder="Contraseña" class="form-control" />
             <span class="text-danger"></span>
           </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" />
-            <label class="form-check-label">Remember me</label>
+            <label class="form-check-label">Recuerda me</label>
           </div>
           <div class="mb-3 text-center">
             <button type="submit" class="btn btn-primary" id="btnIngresar">
-              Login
+              Ingresar
             </button>
-          </div>
-          <div class="mb-3 text-center">
-            <a class="btn btn-outline-success btn-lg">Register</a>
+            <a class="btn btn-outline-success btn-lg">Registrarse</a>
           </div>
         </form>
       </div>
