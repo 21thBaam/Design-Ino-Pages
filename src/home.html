@@ -5,23 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
-    <!-- <link href="css/login2.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/home.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class="p-4">
-    <nav class="navbar navbar-light bg-light">
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-sm navbar-toggleable-sm navbar-light
+        bg-dark bg-gradient
+        border-bottom
+        box-shadow
+        mb-3
+      "
+    >
       <div class="container-fluid">
-        <a class="navbar-brand">Inoac</a>
+        <a class="navbar-brand" href="https://www.google.com/" target="_blank">
+          <img
+            src="https://th.bing.com/th/id/R.f5c2d078f860144283d80bbf0852727e?rik=83dZf62o7%2bIy4A&riu=http%3a%2f%2fppac.co.th%2fwp-content%2fuploads%2f2020%2f01%2finoac-logo.png&ehk=nzPeyGKFJJEvE6EF%2fWELpqg2ZS%2fS0ean1gxaMxEAc6U%3d&risl=&pid=ImgRaw&r=0"
+            alt="Logo"
+            class="logo"
+            width="200"
+          />
+        </a>
+        <div
+          class="
+            navbar-collapse
+            collapse
+            d-sm-inline-flex
+            justify-content-between
+          "
+        >
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Reportes</a>
+            </li>
+          </ul>
+        </div>
         <form class="d-flex">
           <input
             class="form-control me-2"
             type="search"
-            placeholder="Search"
+            placeholder="Buscar"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <button class="btn btn-outline-primary" type="submit">Buscar</button>
         </form>
       </div>
     </nav>
+    <div class="container p-2">
+      <div class="row justify-content-center text-center bg-primary">
+        <div class="col col-md-7 seccion-bienvenida">
+          <h1>Bienvenido a la herramienta para la generación reportes</h1>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-2">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://i.ibb.co/PhpCvQX/img-cap.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Extrae</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Extrae</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://i.ibb.co/PhpCvQX/img-cap.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sube</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Sube</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://i.ibb.co/PhpCvQX/img-cap.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Descarga</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Descarga</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
